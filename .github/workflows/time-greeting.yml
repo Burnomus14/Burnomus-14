@@ -1,0 +1,76 @@
+
+name: Update Nairobi Time Greeting
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-greeting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate time-based greeting
+        run: |
+          python3 <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+          import re
+
+          now = datetime.now(ZoneInfo("Africa/Nairobi"))
+          hour = now.hour
+
+          if 5 <= hour < 12:
+              greeting, emoji = "Good morning", "☀️"
+          elif 12 <= hour < 17:
+              greeting, emoji = "Good afternoon", "🌤️"
+          elif 17 <= hour < 21:
+              greeting, emoji = "Good evening", "🌆"
+          else:
+              greeting, emoji = "Burnomus is coding late", "🌙"
+
+          replacement = f"""<!-- TIME_GREETING_START -->
+          ### {emoji} {greeting}, Burnomus!
+
+          <sub>📍 Africa/Nairobi · East Africa Time (UTC+3) · {now.strftime('%H:%M')}</sub>
+          <!-- TIME_GREETING_END -->"""
+
+          path = Path("README.md")
+          content = path.read_text(encoding="utf-8")
+
+          pattern = (
+              r"<!-- TIME_GREETING_START -->.*?"
+              r"<!-- TIME_GREETING_END -->"
+          )
+
+          updated, count = re.subn(
+              pattern,
+              lambda _: replacement,
+              content,
+              count=1,
+              flags=re.S
+          )
+
+          if count != 1:
+              raise SystemExit("Greeting markers missing in README.md")
+
+          path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Commit greeting update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (
+            git commit -m "Update Nairobi time greeting" &&
+            git push
+          )
