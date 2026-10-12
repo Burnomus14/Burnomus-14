@@ -29,7 +29,7 @@
 
 ---
 
-## `> Who am I?`
+## 🤷 Who am I?
 
 
 My name is Onesmus kipruto. 
@@ -40,7 +40,7 @@ I have always had interest towards technology, computers, programming and design
 Other than that, I do video editing and programming on my free time. In the past I have made games, small softwares and countless websites which I didn't publish online, either because they were personal or just an experiment.
 
 My archive is a living sandbox of web applications, Android software, PC setups, and custom system configurations some actively running in production, others sleeping quietly, awaiting their next iteration.
-<Yes Burnomus14 is my alias>
+Burnomus14 is my alias
 <table>
 <tr>
 <td width="50%" valign="top">
