@@ -1,12 +1,13 @@
-# Hi there, I'm Onesmus 👋 💻
+# Hi there, I'm Burnomus x_x
 
 <!-- Animated Typing Header -->
 <p align="left">
+  <!-- Animated RGB Multi-Color Typing Header -->
+<p align="left">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F0FF&background=00000000&width=450&lines=Backend+Developer;Node.js+%26+API+Integration;Android+Debugging+%26+Security" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F700FF&center=false&vCenter=false&width=500&lines=Backend+Developer;Node.js+%26+API+Integration;Android+Debugging+%26+Security;Audio+Tuning+%26+Optimization" alt="Typing SVG" />
   </a>
 </p>
-
 ---
 
 ### 💡 About Me
