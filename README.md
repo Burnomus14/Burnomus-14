@@ -29,23 +29,18 @@
 
 ---
 
-## `> whoami`
+## `> Who am I?`
 
-```bash
-┌──(burnomus㉿github)-[~]
-└─$ whoami
 
-Backend Developer & Systems Enthusiast
-Problem Solver | Lifelong Learner
-Building practical digital solutions.
-Exploring APIs, automation and Android systems.
+My name is Onesmus kipruto. 
 
-┌──(burnomus㉿github)-[~]
-└─$ echo $MISSION
+I have always had interest towards technology, computers, programming and designing. As a kid I used to play games, but growing up I tried to make my own! 
 
-BUILD. DEBUG. OPTIMIZE. REPEAT.
-```
 
+Other than that, I do video editing and programming on my free time. In the past I have made games, small softwares and countless websites which I didn't publish online, either because they were personal or just an experiment.
+
+My archive is a living sandbox of web applications, Android software, PC setups, and custom system configurations some actively running in production, others sleeping quietly, awaiting their next iteration.
+<Yes Burnomus14 is my alias>
 <table>
 <tr>
 <td width="50%" valign="top">
