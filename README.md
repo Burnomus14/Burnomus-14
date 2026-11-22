@@ -32,7 +32,7 @@
 ## 🤷 Who am I?
 
 
-My name is Onesmus kipruto. 
+My name is Burnomus. 
 
 I have always had interest towards technology, computers, programming and designing. As a kid I used to play games, but growing up I tried to make my own! 
 
