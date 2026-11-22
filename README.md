@@ -1,6 +1,5 @@
 
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:00F0FF,35:7000FF,70:FF007F,100:00FF66&text=Burnomus%20x_x&fontColor=FFFFFF&fontSize=58&fontAlignY=38&animation=fadeIn&desc=BUILDING%20SOLUTIONS%20%2F%20AUTOMATING%20TOMORROW&descAlignY=62&descSize=13" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=800&color=00F0FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%3E_+Developer+%E2%80%A2+Problem+Solver+%E2%80%A2+Lifelong+Learner;Backend+Developer+%26+Systems+Enthusiast;Node.js+%2B+Daraja+M-Pesa+API+Integration;Android+Debugging+%26+Security+Optimization;Turning+Ideas+Into+Working+Systems" alt="Animated Developer Introduction"/>
